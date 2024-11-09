@@ -1,0 +1,37 @@
+.card {
+  &__name {
+    margin-bottom: 16px;
+    @media (min-width: 768px) {
+      margin: unset;
+    }
+  }
+
+  &__cost {
+    margin-bottom: 16px;
+    @media (min-width: 768px) {
+      margin: unset;
+    }
+  }
+
+  &__button {
+    background: url(../img/buy.svg) no-repeat center;
+    width: 119px;
+    height: 32px;
+    border: none;
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    cursor: pointer;
+  }
+
+  &__button:hover {
+    opacity: 0.7;
+    transition: opacity 0.2s;
+  }
+
+  &__text {
+    @media (min-width: 768px) {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  background-color: white;
+  padding: 18px 16px;
+  @media (min-width: 768px) {
+    padding: 24px;
+  }
+  @media (min-width: 1440px) {
+    display: none;
+  }
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.header__right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
+  margin-left: auto;
+}
+
+.header__divider {
+  width: 2px;
+  height: 32px;
+  background-color: #eaeaea;
+  margin-inline: 4px;
+}
+
+.header__divider--tablet {
+  @media (min-width: 320px) {
+    display: none;
+  }
+  @media (min-width: 768px) {
+    display: block;
+  }
+  @media (min-width: 1120px) {
+    display: none;
+  }
+}
+
+.header__logo {
+  display: block;
+  width: 96px;
+  height: 50px;
+  background: url(/src/img/CPS.svg) no-repeat;
+  background-size: contain;
+}

@@ -1,0 +1,28 @@
+.swiper-slide:hover {
+  background-color: #a5f9e233;
+  box-sizing: border-box;
+  transition: 1s;
+}
+
+.swiper-pagination {
+  position: static !important;
+  margin-top: 16px;
+  margin-bottom: 24px;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+.swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50% !important;
+  display: inline-block !important;
+  background: rgb(129, 129, 129) !important;
+  cursor: pointer !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: rgba(181, 182, 188, 1) !important;
+}
