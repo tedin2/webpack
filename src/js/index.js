@@ -1,7 +1,0 @@
-import '../scss/style.scss'
-import '../js/swiper.js'
-import '../js/brands-button.js'
-import '../js/gadget-button.js'
-import '../js/burger-button.js'
-import '../js/modal-feedback.js'
-import '../js/modal-call.js'
